@@ -1,0 +1,672 @@
+@media only screen and (max-width:1200px) {
+
+    .container {
+        width: 90%;
+    }
+
+    /* TODO : HEADER START */
+    .nav-list {
+        gap: 25px;
+    }
+
+    .nav-list a {
+        font-size: 14px;
+    }
+
+    .signIn a {
+        font-size: 12px;
+    }
+
+    /* TODO : HEADER END */
+
+    /* TODO : REGISTER SECTION START */
+    .register-box {
+        gap: 40px;
+    }
+
+    .register-desc h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .register-desc p {
+        font-size: 14px;
+        margin-block: 14px 26px;
+    }
+
+    /* TODO : REGISTER SECTION END */
+
+    /* TODO : CLIENTS SECTION START */
+    .clients-title {
+        text-align: center;
+    }
+
+    .clients-title strong {
+        font-size: 30px;
+    }
+
+    .clients-title p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-block: 5px 10px;
+    }
+
+    .clients-logos {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-block: 10px;
+    }
+
+    /* TODO : CLIENTS SECTION END */
+
+
+    /* TODO : SYSTEM SECTION START */
+    .system-title strong {
+        font-size: 30px;
+        width: 450px;
+    }
+
+    .system-title p {
+        font-size: 14px;
+    }
+
+    .system-cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .system-card {
+        width: 250px;
+        padding: 22px 30px;
+    }
+
+    .system-card img {
+        width: 50px;
+    }
+
+    .system-card-title {
+        font-size: 22px;
+    }
+
+    .system-card-desc {
+        font-size: 12px;
+    }
+
+    /* TODO : SYSTEM SECTION END */
+
+    /* TODO : PIXELGRADE-DESIGN SECTION START */
+
+    .pixelgrade-design-img {
+        width: 40%;
+    }
+
+    .pixelgrade-design-img img {
+        width: 100%;
+    }
+
+    .pixelgrade-design-desc {
+        width: 60%;
+    }
+
+    .pixelgrade-design-title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .pixelgrade-design-paragraph {
+        font-size: 12px;
+        margin-block: 12px 24px;
+    }
+
+    .pixelgrade-design-desc a {
+        padding: 12px 28px;
+    }
+
+    /* TODO : PIXELGRADE-DESIGN SECTION END */
+
+    /* TODO : INFO SECTION START */
+    .info-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .info-desc {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .infos {
+        justify-content: space-between;
+    }
+
+    .infos-card {
+        gap: 1rem;
+        width: 200px;
+        margin-block: 20px;
+    }
+
+    .infos-card img {
+        width: 35px;
+    }
+
+    .infos-card-desc span {
+        font-size: 25px;
+    }
+
+    .infos-card-desc p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* TODO : INFO SECTION END */
+
+    /* TODO : COMMENT SECTION START */
+
+    .comment-box {
+        gap: 30px;
+    }
+
+    .comment-img img {
+        width: 90%;
+    }
+
+    .comment-desc p {
+        font-size: 12px;
+    }
+
+    .comment-desc span {
+        font-size: 16px;
+        margin-block: 14px 6px;
+    }
+
+    .comment-desc strong {
+        font-size: 14px;
+    }
+
+    /* TODO : COMMENT SECTION END */
+
+    /* TODO : MARKETING SECTION START */
+    .marketing-title strong {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .marketing-title p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .marketing-cards {
+        justify-content: space-evenly;
+        gap: 60px;
+    }
+
+    .marketing-card {
+        margin-bottom: 48px;
+    }
+
+    .marketing-desc {
+        bottom: -50px;
+        width: 300px;
+        height: 150px;
+        padding: 14px;
+    }
+
+    .marketing-desc p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .marketing-desc a {
+        font-size: 16px;
+        margin-block: 10px;
+    }
+
+    /* TODO : MARKETING SECTION END */
+
+
+    /* TODO : DEMO SECTION START */
+    .demo-box p {
+        font-size: 45px;
+        width: 50%;
+    }
+
+    .demo-box a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* TODO : DEMO SECTION END */
+
+
+    /* TODO : FOOTER START */
+
+    .reserved {
+        margin-block: 40px;
+        color: #F5F7FA;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .logo-social img {
+        width: 140px;
+    }
+
+    .reserved p:first-child {
+        margin-bottom: 3px;
+    }
+
+    .social-list {
+        gap: 12px;
+    }
+
+    .company-support strong,
+    .date strong {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .company-support ul {
+        gap: 8px;
+    }
+
+    .company-support ul li a {
+        font-size: 12px;
+    }
+
+    .date form input {
+        padding: 8px 10px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    /* TODO : FOOTER END */
+}
+
+@media only screen and (max-width:992px) {
+    .container {
+        width: 90%;
+    }
+
+    /* TODO: HEADER START */
+    header {
+        padding-inline: 20px;
+    }
+
+    .logo img {
+        width: 130px;
+    }
+
+    nav,
+    .signIn {
+        display: none;
+    }
+
+    .menuBar {
+        display: block;
+        font-size: 30px;
+        color: #000;
+    }
+
+    /* TODO:HEADER END */
+
+    /* TODO: REGISTER START */
+    .register-box {
+        padding: 32px;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .register-desc h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .register-desc p {
+        font-size: 16px;
+        margin-block: 8px 16px;
+    }
+
+    .register-desc a {
+        padding: 7px 16px;
+        font-size: 12px;
+    }
+
+    .register-box img {
+        width: 300px;
+    }
+
+    /* TODO: REGISTER START */
+
+
+    /* TODO : CLIENTS SECTION START */
+    #clients {
+        margin-block: 32px;
+        padding-inline: 32px;
+    }
+
+    .clients-title strong {
+        font-size: 32px;
+    }
+
+    .clients-title p {
+        margin-block: 4px 8px;
+    }
+
+    .clients-logos {
+        padding-block: 16px;
+    }
+
+    .clients-logos img {
+        width: 32px;
+    }
+
+    /* TODO : CLIENTS SECTION END */
+
+    /* TODO : SYSTEM SECTION START */
+    .system-title strong {
+        font-size: 32px;
+        width: 90%;
+    }
+
+    .system-title p {
+        margin-top: .5rem;
+    }
+
+    .system-cards {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        margin-block: 1rem 2.625rem;
+    }
+
+    .system-card {
+        width: 230px;
+        box-shadow: 0 .125rem 10px 0 #ABBED133;
+        padding: 12px 26px;
+    }
+
+    .system-card img {
+        width: 40px;
+    }
+
+    .system-card-title {
+        font-size: 16px;
+    }
+
+    .system-card-desc {
+        font-size: 10px;
+    }
+
+    /* TODO : SYSTEM SECTION END */
+
+    /* TODO : PIXELGRADE-DESIGN SECTION START */
+    #pixelgrade-design {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .pixelgrade-design-img {
+        order: 1;
+        width: 350px;
+    }
+
+    .pixelgrade-design-img img {
+        width: 100%;
+    }
+
+    .pixelgrade-design-desc {
+        text-align: center;
+        width: 100%
+    }
+
+    .pixelgrade-design-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .pixelgrade-design-paragraph {
+        font-size: 12px;
+        margin-block: 12px 28px;
+    }
+
+    .pixelgrade-design-desc a {
+        padding: 7px 16px;
+        font-size: 12px;
+    }
+
+    /* TODO : PIXELGRADE-DESIGN SECTION END */
+
+    /* TODO : INFO SECTION START */
+
+    .info-box {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .info-title {
+        font-size: 25px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    .info-desc {
+        font-size: 14px;
+    }
+
+    .infos {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .infos-card {
+        gap: 10px;
+        width: 150px;
+        margin-block: 18px;
+    }
+
+    .infos-card img {
+        width: 25px;
+    }
+
+    .infos-card-desc span {
+        font-size: 16px;
+    }
+
+    .infos-card-desc p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    /* TODO : INFO SECTION END */
+
+
+    /* TODO : COMMENT SECTION START */
+    #comment {
+        background-color: #F5F7FA;
+        padding-block: 32px;
+    }
+
+    #comment:hover {
+        .comment-box {
+            transform: scale(1.01);
+            -webkit-transform: scale(1.01);
+            -moz-transform: scale(1.01);
+            -ms-transform: scale(1.01);
+            -o-transform: scale(1.01);
+            background-color: #F5F7FA;
+        }
+    }
+
+    .comment-box {
+        padding: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .comment-img img {
+        width: 200px;
+    }
+
+    .comment-desc {
+        width: 100%;
+    }
+
+    .comment-desc p {
+        font-size: 12px;
+    }
+
+    .comment-desc span {
+        font-size: 16px;
+        margin-block: 12px 6px;
+    }
+
+    .comment-desc strong {
+        font-size: 14px;
+    }
+
+    /* TODO : COMMENT SECTION END */
+
+
+    /* TODO : MARKETING SECTION START */
+    .marketing-title strong {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .marketing-title p {
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
+    }
+
+    .marketing-cards {
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .marketing-card {
+        margin-bottom: 40px;
+    }
+
+    .marketing-card img {
+        width: 300px;
+    }
+
+    .marketing-desc {
+        bottom: -50px;
+        width: 250px;
+        height: 130px;
+    }
+
+    .marketing-desc p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .marketing-desc a {
+        font-size: 14px;
+        margin-block: 10px;
+    }
+
+    .marketing-desc a i {
+        margin-left: 3px;
+    }
+
+    .marketing-desc:hover,
+    .demo-box a:hover {
+        i {
+            margin-left: 7px;
+        }
+    }
+
+    /* TODO : MARKETING SECTION END */
+
+
+    /* TODO : DEMO SECTION START */
+    .demo-box p {
+        font-size: 20px;
+    }
+
+    .demo-box a {
+        padding: 7px 16px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .demo-box a i {
+        margin-left: 3px;
+    }
+
+    /* TODO : DEMO SECTION END */
+
+
+    /* TODO : FOOTER START */
+    footer {
+        background-color: #263238;
+    }
+
+    .nexcent-footer {
+        padding-block: 40px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .logo-social img {
+        width: 60px;
+    }
+
+    .reserved {
+        margin-block: 10px;
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    .reserved p:first-child {
+        margin-bottom: 8px;
+    }
+
+    .social-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .social-list li a {
+        padding: 4px 5px;
+        font-size: 10px;
+    }
+
+    .company-support strong,
+    .date strong {
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+
+    .company-support ul {
+        gap: 1px;
+        text-align: center;
+    }
+
+    .company-support ul li a {
+        font-size: 7px;
+    }
+
+    .date form input {
+        padding: 5px 8px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    /* TODO : FOOTER END */
+}
